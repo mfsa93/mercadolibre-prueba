@@ -1,0 +1,13 @@
+{
+    "header": {
+        "searchForm": {
+            "placeholder": "Nunca dejes de buscar"
+        }
+    },
+    "productDetail": {
+        "productDescription": "Descripción del producto"
+    },
+    "new": "Nuevo",
+    "used": "Usado",
+    "freeShipping": "Envío gratis"
+}

@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    padding: 10px 0px; 
+    background: $color-primary;
+
+    &-container{
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            img{
+                height: 34px;
+                display: block
+            }
+        }
+        .search-form{
+            width: 80%;
+            background: $white;
+            border-radius: 5px;
+            display: flex;
+            @media (min-width: 960px) {
+                width: 91.666%;
+            }
+            input{
+                font-size: 18px;
+                width: calc(100% - 50px);
+                border: 0;
+                padding: 8px;
+                outline: 0;
+                color: $color-black;
+                border-radius: 5px;
+
+                &::placeholder{
+                    color: $color-light-gray;
+                }
+            }
+
+            .search-button{
+                width: 50px;
+                border: 0;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                cursor: pointer;
+                color: $color-black;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "header": {
+        "searchForm": {
+            "placeholder": "Search"
+        }
+    },
+    "productDetail": {
+        "productDescription": "Product description"
+    },
+    "new": "New",
+    "used": "Used",
+    "freeShipping": "Free shipping"
+}
